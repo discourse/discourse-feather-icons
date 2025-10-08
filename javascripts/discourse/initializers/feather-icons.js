@@ -153,6 +153,6 @@ function initIcons(api) {
 export default {
   name: "feather-icons",
   initialize() {
-    withPluginApi("0.10.1", initIcons);
+    withPluginApi(initIcons);
   },
 };
